@@ -1,0 +1,94 @@
+{
+    "policies": {
+      "BlockAboutAddons": true,
+      "BlockAboutConfig": true,
+      "BlockAboutProfiles": true,
+      "BlockAboutSupport": true,
+      "DisableFeedbackCommands": true,
+      "DisableFirefoxAccounts": true,
+      "DisableFirefoxScreenshots": true,
+      "DisableFirefoxStudies": true,
+      "DisableForgetButton": true,
+      "DisableFormHistory": true,
+      "DisableMasterPasswordCreation": true,
+      "DisablePasswordReveal": true,
+      "DisablePocket": true,
+      "DisablePrivateBrowsing": true,
+      "DisableProfileImport": true,
+      "DisableProfileRefresh": true,
+      "DisableSafeMode": true,
+      "DisableSetDesktopBackground": true,
+      "OfferToSaveLogins": false,
+      "OverrideFirstRunPage": "",
+      "OverridePostUpdatePage": "",
+      "PasswordManagerEnabled": false,
+      "SanitizeOnShutdown": true,
+      "NoDefaultBookmarks": true,
+      "ShowHomeButton": true,
+      "Homepage": {
+        "URL": "http://start.duckduckgo.com/|https://techolympics.org/session-info/",
+        "Locked": true,
+        "StartPage": "homepage-locked"
+      },
+      "FirefoxHome": {
+        "Search": true,
+        "TopSites": true,
+        "SponsoredTopSites": false,
+        "Highlights": false,
+        "Pocket": false,
+        "SponsoredPocket": false,
+        "Snippets": false,
+        "Locked": true
+      },
+      "FirefoxSuggest": {
+        "WebSuggestions": true,
+        "SponsoredSuggestions": false,
+        "ImproveSuggest": false,
+        "Locked": true
+      },
+      "SearchEngines": {
+        "Add": [
+          {
+            "Name": "DuckDuckGo Safe",
+            "URLTemplate": "https://safe.duckduckgo.com/q={searchTerms}",
+            "Method": "GET",
+            "IconURL": "https://safe.duckduckgo.com/favicon.ico",
+            "Alias": "duckduckgosafe",
+            "Description": "Duck Duck Go Safe Search",
+            "PostData": "name=value&q={searchTerms}",
+            "SuggestURLTemplate": "https://safe.duckduckgo.com/suggestions/q={searchTerms}"
+          }
+        ],
+        "Default": "DuckDuckGo Safe",
+        "Remove": ["Amazon.com", "Bing", "eBay", "DuckDuckGo", "Wikipedia"],
+        "PreventInstalls": true
+      },
+      "ExtensionSettings": {
+        "*": {
+          "blocked_install_message": "This extension is not approved.",
+          "installation_mode": "blocked"
+        },
+        "uBlock0@raymondhill.net": {
+          "installation_mode": "force_installed",
+          "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+        },
+        "https-everywhere@eff.org": {
+          "installation_mode": "allowed"
+        }
+      },
+      "UserMessaging": {
+        "WhatsNew": false,
+        "ExtensionRecommendations": false,
+        "FeatureRecommendations": false,
+        "UrlbarInterventions": false,
+        "SkipOnboarding": true,
+        "MoreFromMozilla": false,
+        "Locked": true
+      },
+      "PopupBlocking": {
+        "Default": true,
+        "Locked": true
+      }
+  
+    }
+  }
