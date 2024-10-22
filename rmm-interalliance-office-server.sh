@@ -29,7 +29,7 @@ agentDL='https://agents.tacticalrmm.com/api/v2/agents/?version=2.8.0&arch=amd64&
 meshDL='https://mesh.interalliance.org/meshagents?id=WhW7lAGKS$dKnMULk3Uiev4AF2iuRZCrZTaNaaB62Ccv83R9QMl8V3qolPHNP2AE&installflags=2&meshinstall=6'
 
 apiURL='https://api.interalliance.org'
-token='8edce4237b3a7692c6b65fd3da7a32c1dbc5d59c1bbaa4500ad29f29164eab74'
+token='226eb327ce3c49f1ca6dfe3a4221ae64c213086501af06e27ad21c34fa7c8a59'
 clientID='1'
 siteID='1'
 agentType='server'
